@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Multi Video Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Multi Video Display</h1>
+        
+        <div class="global-controls">
+            <button id="playAllBtn" class="premium-button">
+                <i class="fas fa-play"></i> Play All
+            </button>
+            <button id="pauseAllBtn" class="premium-button">
+                <i class="fas fa-pause"></i> Pause All
+            </button>
+        </div>
+
+        <div class="video-grid">
+            <div class="video-container">
+                <div id="player1" class="video-player"></div>
+                <div class="video-controls">
+                    <button class="play-pause" data-player="1">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="video-container">
+                <div id="player2" class="video-player"></div>
+                <div class="video-controls">
+                    <button class="play-pause" data-player="2">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="video-container">
+                <div id="player3" class="video-player"></div>
+                <div class="video-controls">
+                    <button class="play-pause" data-player="3">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="video-container">
+                <div id="player4" class="video-player"></div>
+                <div class="video-controls">
+                    <button class="play-pause" data-player="4">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            With love from <span class="author">Surya Prakash Thota</span> <i class="fas fa-heart"></i>
+        </footer>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
